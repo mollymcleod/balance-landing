@@ -1,0 +1,42 @@
+.b-header {
+ background-color: #8CC63E ;
+ padding-top:30px;
+ padding-bottom: 30px;
+ margin-bottom: 30px;
+}
+.b-header > div > h1 {
+ font-size: 6em;
+ font-weight: bold;
+}
+.b-header > div > h2 {
+ font-size: 4em;
+ color: black;
+ font-weight: lighter;
+}
+
+.b-states {
+  padding-top: 20px;
+}
+.b-state {
+  display:inline-block;
+  margin-right: 20px;
+}
+.b-intro{
+}
+.b-intro > h3{
+  font-size:3em;
+}
+.b-contact{
+  margin-top: 75px;
+}
+.b-contact >p > a {
+  color: #2E993E;
+}
+.b-contact >p {
+  font-size:2em;
+}
+.b-screenshot {
+  float:right;
+}
+
+.test {background-color: red !important; height: 500px;}

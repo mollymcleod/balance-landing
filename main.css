@@ -1,5 +1,9 @@
+h1, h2, h3, h4, h5, h6, p {
+	font-family: "proxima-nova-condensed", helvetica, sans serif;
+}
+
 .b-header {
- background-color: #8CC63E ;
+ background-color: #81D300;
  padding-top:30px;
  padding-bottom: 30px;
  margin-bottom: 30px;
@@ -7,6 +11,7 @@
 .b-header > div > h1 {
  font-size: 6em;
  font-weight: bold;
+ color:black;
 }
 .b-header > div > h2 {
  font-size: 4em;
@@ -21,6 +26,11 @@
   display:inline-block;
   margin-right: 20px;
 }
+
+.b-state > p {
+ font-size:1.5em;
+}
+
 .b-intro{
 }
 .b-intro > h3{
@@ -33,10 +43,21 @@
   color: #2E993E;
 }
 .b-contact >p {
-  font-size:2em;
+  font-size:1.5em;
 }
 .b-screenshot {
   float:right;
+}
+
+.b-footer{
+	background-color:#81D300;
+	padding:15px;
+	margin-top:30px;
+	margin-bottom:0px;
+}
+
+.b-footer >h4 >a{
+	color:black;
 }
 
 .test {background-color: red !important; height: 500px;}
